@@ -1,6 +1,6 @@
 ### Description
 
-This code works by Using [Python's Magic Library](https://pypi.org/project/python-magic/) to identify the File Type. The Magic Library in the code helps to identify the MIME(Media Type) type of the response content. Then the code matches the Reponse Headers with the identified Content-Type and gives the results.
+This code works by Using [Python's Magic Library](https://pypi.org/project/python-magic/) to identify the File Type. The Magic Library in the code helps to identify the MIME(Media Type) type of the response content. Then the code matches the Reponse Headers with the identified Content-Type and shows "Matched" or "Not Matched". If the Content-Type is incorrectly stated it will show "Not Matched".
 
 ### Prerequisites
 
